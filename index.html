@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <a href="#">Главная</a>
+            <a id="show_add_photo" href="#">Фото</a>
+        <a href="#">Посты</a>
+    <a href="#">Личный кабинет</a>
+    </header>
+    <h1>Галерея</h1>
+    <div id="grid">
+		<a href="#" class="photo"><img src="5.jpg" alt=""><p>Гроза</p></a>
+		<a href="#" class="photo"><img src="4.jpg" alt=""><p>В парке</p></a>
+		<a href="#" class="photo"><img src="3.jpg" alt=""><p>Мой двор</p></a>
+		<a href="#" class="photo"><img src="2.jpg" alt=""><p>Золотые ворота</p></a>
+		<a href="#" class="photo"><img src="1.jpg" alt=""><p>Мой ноут</p></a>            
+	</div>
+
+    <div id="add_new_photo">
+    <form>
+        <input id="new_photo_src" type="text" placeholder="Картинка" name="image">
+        <input id="new_photo_text" type="text" placeholder="Подпись" name="text">
+        <button id="add_photo">Добавить</button>
+        <button id="cancel">Отменить</button>
+    </form>
+</div>
+    <div id="popup_photo">
+        <img src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+
+</body></html>
